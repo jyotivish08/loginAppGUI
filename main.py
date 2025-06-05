@@ -1,6 +1,7 @@
 from tkinter import *
 from PIL import ImageTk, Image  #imported from pillow to add image on screen
 
+
 root = Tk()
 
 root.title('Login Form')
@@ -27,9 +28,26 @@ img_label.pack(pady=(10,10))
 
 text_label = Label(root, text='Flipkart', fg='white', bg='#0096DC')
 text_label.pack()
-text_label.config(font=('verdana', 22))
+text_label.config(font=('verdana', 24))
 
 #MAKING TABLE 
+
+email_label = Label(root, text='Enter Email', fg='white', bg='#0096DC')
+email_label.pack(pady=(20,5))
+email_label.config(font=('verdana', 12))
+email_input = Entry(root, width=50)
+email_input.pack(ipady = 5, pady=(1,10))
+
+
+password_label = Label(root, text='Enter Password', fg='white', bg='#0096DC')
+password_label.pack(pady=(20,5))
+password_label.config(font=('verdana', 12))
+password_input = Entry(root, width=50)
+password_input.pack(ipady = 5, pady=(1,10))
+
+login_btn = Button(root, text='Login Here', bg='white', fg='black', width=20, height=2, )
+login_btn.pack(pady=(14,20))
+text_label.config(font=('verdana', 12))
 
 
 
