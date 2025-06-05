@@ -7,7 +7,7 @@ This is a beginner-friendly Python project where I created a simple login interf
 ## 📸 Screenshot
 Here's what the app looks like:
 
-![Login App Screenshot](screenshot.png)
+![Login App Screenshot](Screenshot.png)
 
 💡 **Features**
 - Simple user interface
