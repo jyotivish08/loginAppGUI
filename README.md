@@ -4,6 +4,11 @@
 🧠 **About**
 This is a beginner-friendly Python project where I created a simple login interface using Tkinter. It includes basic GUI elements like labels, entry fields, and buttons.
 
+## 📸 Screenshot
+Here's what the app looks like:
+
+![Login App Screenshot](Screenshot.png)
+
 💡 **Features**
 - Simple user interface
 
