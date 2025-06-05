@@ -1,5 +1,16 @@
 from tkinter import *
 from PIL import ImageTk, Image  #imported from pillow to add image on screen
+from tkinter import messagebox # to show message box like login sucessful
+
+def handle_login():
+    print('click')
+    email = email_input.get()
+    password = password_input.get()
+
+    if email== 'jyoti@gmail.com' and password == '1234':
+        messagebox.showinfo('yayy', 'Login successful')
+    else:
+        messagebox.showerror('Error', 'Login Failed')
 
 
 root = Tk()
@@ -45,7 +56,7 @@ password_label.config(font=('verdana', 12))
 password_input = Entry(root, width=50)
 password_input.pack(ipady = 5, pady=(1,10))
 
-login_btn = Button(root, text='Login Here', bg='white', fg='black', width=20, height=2, )
+login_btn = Button(root, text='Login Here', bg='white', fg='black', width=20, height=2, command = handle_login )
 login_btn.pack(pady=(14,20))
 text_label.config(font=('verdana', 12))
 
